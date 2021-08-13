@@ -22,3 +22,6 @@
   .flex-end {
     justify-content: flex-end;
   }
+  form {
+    width: 40%;
+  }

@@ -8,10 +8,10 @@ import User from "./components/user";
 export default function App() {
   return (
     <main>
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <Marketplace />
-      <User />
+      <User /> */}
       <Login />
     </main>
   );
