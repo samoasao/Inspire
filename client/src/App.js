@@ -1,10 +1,11 @@
 import React from "react";
 import Home from "./components/home";
-import Login from "./components/login";
-import Signup from "./components/signup";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
 import Navbar from "./components/navbar";
 import Marketplace from "./components/marketplace";
 import User from "./components/user";
+import Profile from "./pages/profile";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <User /> */}
       <Login />
       <Signup/>
+      <Profile/>
     </main>
   );
 }
